@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter&family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  background: hsl(210deg, 46%, 95%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.container {
+  gap: 30px;
+  display: grid;
+  margin: 80px;
+}
+
+h1 {
+  font-size: 17px;
+  color: hsl(210deg, 46%, 95%);
+}
+
+h2 {
+  font-size: 15px;
+  color: hsl(0deg, 0%, 67%);
+}
+
+.item {
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 80% 0;
+}
+
+.item1 {
+  grid-column: 1/span 2;
+  grid-row: 1;
+  background: hsl(263deg, 55%, 52%);
+}
+.item1 .img-card img {
+  border: 3px solid hsl(263deg, 55%, 61%);
+}
+
+.item2 {
+  grid-column: span;
+  grid-row: 1;
+  background: hsl(217deg, 19%, 35%);
+}
+
+.item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.item4 {
+  grid-column: 2/span 2;
+  background: hsl(219deg, 29%, 14%);
+}
+.item4 .img-card img {
+  border: 3px solid hsl(263deg, 55%, 53%);
+}
+
+.item5 {
+  grid-row: 1/span 2;
+}
+.item5 .txt p {
+  width: 250px;
+}
+
+.box {
+  display: block;
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box .info-card {
+  display: flex;
+  align-items: center;
+}
+.box .info-card .info {
+  padding-left: 20px;
+}
+.box .info-card .info h1 {
+  margin: 0;
+}
+.box .info-card .info h2 {
+  margin: 0;
+}
+.box .info-card .img-card img {
+  border-radius: 50%;
+}
+.box .p1 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  color: hsl(210deg, 46%, 95%);
+  line-height: 1.1em;
+}
+.box p {
+  color: hsl(0deg, 0%, 70%);
+  font-size: 17px;
+}
+.box .txt {
+  line-height: 1.7em;
+}
+
+.white {
+  background: white;
+}
+.white .p1 {
+  color: hsl(217deg, 19%, 35%);
+}
+.white p {
+  color: hsl(0deg, 1%, 42%);
+}
+.white h1 {
+  color: hsl(217deg, 19%, 35%);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 12px;
+  }
+  .item5 {
+    grid-column: 1/4;
+    grid-row: 3;
+  }
+  .item5 .txt p {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    display: block;
+    margin: auto;
+  }
+  .box {
+    width: auto;
+    margin: 10px;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */
