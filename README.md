@@ -25,17 +25,17 @@ Users should be able to:
 ### Screenshot
 
 - Desktop Screen :
-![Desktop Screen](/images/ScreenShot/TipCalc_desktop.png)
+![Desktop Screen](/images/ScreenShots/testimonialsgridsection31_desktop.png)
 
 - Mobile Screen :
-![Desktop Screen](/images/ScreenShot/TipCalc_(iPhone%20XR).png)
+![Desktop Screen](/images/ScreenShots/testimonialsgridsection31_(iPhone%20SE).png)
 
 - Ipad Screen :
-![Desktop Screen](/images/ScreenShot/TipCalc_(iPad%20Air).png)
+![Desktop Screen](/images/ScreenShots/testimonialsgridsection31_(iPad%20Air).png)
 
 
 ### Links
-- Solution URL: [TipCalculator](https://tip-calculator31.netlify.app/)
+- Solution URL: [Testimonials grid section](https://testimonialsgridsection31.netlify.app/)
 <!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
